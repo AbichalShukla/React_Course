@@ -1,0 +1,42 @@
+.container {
+  position: relative;
+  width: 15em;
+  margin: 0 0.2em;
+  float: left;
+}
+
+.pic img {
+  width: 100%;
+}
+.title {
+  font-size: bold;
+  margin-bottom: 1em;
+}
+.channel,
+.views {
+  font-size: small;
+  margin-bottom: 0.2em;
+}
+.views span {
+  position: 0 0.5em;
+}
+.close {
+  /* position: absolute; */
+  /* display: block; */
+  right: 0;
+  width: 15px;
+  height: 15px;
+  margin-right: 5px;
+}
+.darkMode {
+  background-color: #333;
+}
+.lightMode {
+  background-color: #ccc;
+}
+.container.darkMode {
+  color: white;
+}
+.container.lightMode {
+  color: #333;
+}
